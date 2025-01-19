@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "enchaments_normalizer",
+  "version": "${version}",
+  "name": "Enchaments Normalizer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/enchaments_normalizer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.fanya.enchaments_normalizer.Enchaments_normalizer"
+    ]
+  },
+  "mixins": [
+    "enchaments_normalizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
