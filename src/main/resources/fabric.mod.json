@@ -1,25 +1,28 @@
 {
-  "schemaVersion": 1,
-  "id": "enchaments_normalizer",
-  "version": "${version}",
-  "name": "Enchaments Normalizer",
-  "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
-  "icon": "assets/enchaments_normalizer/icon.png",
-  "environment": "client",
-  "entrypoints": {
-    "main": [
-      "com.fanya.enchaments_normalizer.Enchaments_normalizer"
-    ]
-  },
-  "mixins": [
-    "enchaments_normalizer.mixins.json"
-  ],
-  "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
-  }
+	"schemaVersion": 1,
+	"id": "enchaments_normalizer",
+	"version": "${version}",
+	"name": "Enchantments Normalizer",
+	"description": "Shows enchantment levels as Roman numerals (including high levels). Port to 26.3.",
+	"authors": ["FanyaOff"],
+	"contact": {
+		"sources": "https://github.com/FanyaOff/Enchant-Normalizer"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/enchaments_normalizer/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.fanya.enchaments_normalizer.Enchaments_normalizer"
+		]
+	},
+	"mixins": [
+		"enchaments_normalizer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
 }

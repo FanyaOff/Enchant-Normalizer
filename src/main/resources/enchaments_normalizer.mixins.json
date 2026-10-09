@@ -1,13 +1,12 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "com.fanya.enchaments_normalizer.mixin",
-  "compatibilityLevel": "JAVA_21",
-  "mixins": [],
-  "client": [
-    "EnchantmentMixin"
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+	"required": true,
+	"package": "com.fanya.enchaments_normalizer.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"EnchantmentMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8.5"
 }

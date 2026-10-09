@@ -1,18 +1,17 @@
 package com.fanya.enchaments_normalizer;
 
-import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class Enchaments_normalizer implements ModInitializer, ClientModInitializer {
+public class Enchaments_normalizer implements ModInitializer
+{
+	public static final String MOD_ID = "enchaments_normalizer";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    public static final String MOD_ID = "romanlevelmod";
-
-    @Override
-    public void onInitialize() {
-        System.out.println("RomanLevelMod initialized!");
-    }
-
-    @Override
-    public void onInitializeClient() {
-    }
+	@Override
+	public void onInitialize()
+	{
+		LOGGER.info("Enchantments Normalizer loaded (26.3)");
+	}
 }
