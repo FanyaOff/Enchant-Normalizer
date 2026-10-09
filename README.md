@@ -6,7 +6,3 @@ With the mod:
 
 Without the mod:
 ![image](https://github.com/user-attachments/assets/fc163dfa-1b48-491d-accb-7aa3be397b6f)
-
-Version support:
-- [1.21.x](https://github.com/FanyaOff/Enchant-Normalizer)
-- [26.3](https://github.com/DarthJahus/minecraft-enchant-normalizer)
