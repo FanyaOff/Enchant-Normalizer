@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Enchaments_Normalizer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Enchaments_Normalizer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Enchaments_Normalizer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Enchaments_Normalizer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Enchant-Normalizer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Enchant-Normalizer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Enchant-Normalizer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Enchant-Normalizer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fanya.Enchant-Normalizer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fanya.Enchant-Normalizer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fanya.Enchant-Normalizer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fanya.Enchant-Normalizer.test.iml" />
     </modules>
   </component>
 </project>
